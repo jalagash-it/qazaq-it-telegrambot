@@ -7,7 +7,7 @@ const token = '1444056180:AAHVZNVlDeSUtVFHYlaY4GDJzGr9s4vVl_U';
 const bot = new TelegramBot(token, {polling: true});
 
 // Matches "/echo [whatever]"
-bot.onText(/\/echo (.+)/, (msg, match) => {
+bot.onText(/#it (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
   // 'match' is the result of executing the regexp above on the text content
   // of the message
@@ -16,7 +16,7 @@ bot.onText(/\/echo (.+)/, (msg, match) => {
   const resp = match[1]; // the captured "whatever"
 
   // send back the matched "whatever" to the chat
-  bot.sendMessage(chatId, resp);
+  bot.sendMessage(chatId, "мен сіздің сұрағыңызды қабылдадым. шамам келгенше сәлден соң жауап қайырамын");
 });
 
 // Listen for any kind of message. There are different kinds of
