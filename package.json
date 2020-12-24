@@ -1,0 +1,30 @@
+{
+  "name": "qazaq-it-telegrambot",
+  "version": "1.0.0",
+  "description": "qazaq it community boty. suraqtar koiyp jane ogan jauap beruge boladi",
+  "main": "index.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhalagash-it/qazaq-it-telegrambot.git"
+  },
+  "keywords": [
+    "telegrambot",
+    "qazaq",
+    "qazaq-it",
+    "it",
+    "oqykz"
+  ],
+  "author": "zhalagash-it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhalagash-it/qazaq-it-telegrambot/issues"
+  },
+  "homepage": "https://github.com/zhalagash-it/qazaq-it-telegrambot#readme"
+}
